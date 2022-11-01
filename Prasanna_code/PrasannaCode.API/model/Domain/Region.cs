@@ -4,9 +4,9 @@
     {
         public Guid id { get; set; }
 
-        public string Code { get; set; }
+        public string? Code { get; set; }
 
-        public string Name { get; set; }
+        public string? Name { get; set; }
 
         public double Area { get; set; }
 
@@ -18,7 +18,7 @@
 
         //Nevigation Property
 
-        public IEnumerable<Walk> Walks { get; set; }            
+        public IEnumerable<Walk>? Walks { get; set; }            
         
 
 
